@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Playfair+Display:wght@500;700;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --sakura-pink: #f8c8dc;
+  --light-pink: #ffdfe8;
+  --white: #ffffff;
+  --lavender: #e6d6ff;
+  --spring-green: #cfe8d5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: #3e3340;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at 10% 5%, rgba(255, 255, 255, 0.9), rgba(255, 223, 232, 0.7)),
+    linear-gradient(160deg, var(--light-pink), var(--white) 45%, var(--lavender));
+  background-attachment: fixed;
+}
+
+a {
+  color: inherit;
+}
