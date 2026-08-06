@@ -1,9 +1,8 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { Mail, Phone, MapPin, Link2 } from 'lucide-react';
+import { Mail, MapPin, Link2 } from 'lucide-react';
 
 const contactItems = [
-  { icon: Phone, label: 'Phone', value: '+91 8924026557', href: 'tel:+918924026557' },
   { icon: Mail, label: 'Email', value: 'pragyasingh2408@gmail.com', href: 'mailto:pragyasingh2408@gmail.com' },
   { icon: Link2, label: 'LinkedIn', value: 'linkedin.com/in/pragya-singh-508628286', href: 'https://www.linkedin.com/in/pragya-singh-508628286/' },
   { icon: MapPin, label: 'Location', value: 'EC Phase-1, Bangalore, KA', href: '' }
